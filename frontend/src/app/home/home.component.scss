@@ -1,0 +1,23 @@
+main {
+    height: 85vh;
+    width: 100vw;
+    overflow-y: scroll;
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    // align-content: space-around;
+
+    img {
+        width: 25%;
+        padding: 1vh 1vw;
+        margin: 2vh 2vw;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+    img:hover {
+        transform: scale(1.1);
+        background-color: rgba(#535353, 0.05)
+    }
+}

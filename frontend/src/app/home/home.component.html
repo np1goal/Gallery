@@ -1,0 +1,5 @@
+<app-header></app-header>
+<main>
+    <img *ngFor="let art of arts['data']" src="{{iiifLink}}/{{art['image_id']}}/full/843,/0/default.jpg"/>
+</main>
+<app-footer></app-footer>

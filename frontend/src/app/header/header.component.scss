@@ -1,0 +1,20 @@
+header {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        margin-left: 5vw;
+    }
+
+    input{
+        height: 30px;
+        width: 200px;
+        padding: 0 1vw;
+        margin-right: 5vw;
+        border-radius: 5px;
+        border: 0;
+        background-color: rgba(#535353, 0.05)
+    }
+}

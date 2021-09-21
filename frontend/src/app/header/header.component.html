@@ -1,0 +1,7 @@
+<header>
+    <img src="../../assets/exhibition-logo-web.svg" alt="gallery-logo">
+    <input list="pages" name="page" id="page" placeholder="Select Page Number">
+    <datalist id="pages">
+        <option *ngFor="let item of [].constructor(425); let i = index" value={{i+1}}>{{i+1}}</option>
+    </datalist>
+</header>
