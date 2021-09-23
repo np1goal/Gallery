@@ -14,7 +14,7 @@ export class HomeComponent implements OnInit {
   iiifLink: string = ''
   
   ngOnInit(): void {
-    this.objectAPI.getObjects().subscribe(res => { this.arts = res; this.iiifLink = this.arts['config']['iiif_url']; console.log(this.arts) })
+    this.objectAPI.getObjects().subscribe(res => { this.arts = res; console.log(this.arts) })
   }
 
 }

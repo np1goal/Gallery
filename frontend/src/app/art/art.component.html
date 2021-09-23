@@ -1,6 +1,9 @@
 <section>
-    <img src="{{image_link}}" alt="{{title}} image">
-    <h1>{{title}}</h1>
-    <em>{{artist_display}}</em><br>
-    <i>{{date_display}}</i>
+    <img src="{{artInfo['artObject']['webImage']['url']}}" alt="{{artInfo['artObject']['title']}} image">
+    <h1>{{artInfo['artObject']['title']}}</h1>
+    <em>Type: {{artInfo['artObject']['objectTypes'][0]}}</em><br>
+    <em>Title: {{artInfo['artObject']['titles'][0]}}</em><br>
+    <p>{{artInfo['artObject']['description']}}</p>
+    <!--<em>{{artist_display}}</em><br>
+    <i>{{date_display}}</i>-->
 </section>

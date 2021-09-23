@@ -1,5 +1,7 @@
 <app-header></app-header>
 <main>
-    <img *ngFor="let art of arts['data']" src="{{iiifLink}}/{{art['image_id']}}/full/843,/0/default.jpg"/>
+    <ng-container *ngFor="let art of arts['artObjects']">
+    <img *ngIf="art.hasImage === true" src="{{art['webImage']['url']}}"/>
+    </ng-container>
 </main>
 <app-footer></app-footer>
