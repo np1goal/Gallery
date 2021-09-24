@@ -1,7 +1,17 @@
 <app-header></app-header>
 <main>
-    <ng-container *ngFor="let art of arts['artObjects']">
-    <img *ngIf="art.hasImage === true" src="{{art['webImage']['url']}}"/>
-    </ng-container>
+    <div class="art-displays">
+        <ng-container *ngFor="let art of arts['artObjects']">
+            <img *ngIf="art.hasImage === true" src="{{art['webImage']['url']}}"/>
+        </ng-container>
+    </div>
+     <div class="art-pagination">
+        <div class="pagination-buttons">
+            <button id="back-arrow" (click)="changePageBracket('back')"><i class='fas fa-angle-double-left'></i></button>
+            <ng-container *ngFor="let num of pageBracket">
+                <button id="{{'page-num-' + num}}" (click)="pageNumberClicked(num)">{{num}}</button>
+            </ng-container>
+            <button id="next-arrow"(click)="changePageBracket('next')"><i class='fas fa-angle-double-right'></i></button>
+        </div>
+     </div>
 </main>
-<app-footer></app-footer>

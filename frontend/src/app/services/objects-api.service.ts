@@ -9,8 +9,8 @@ export class ObjectsApiService {
 
   constructor(private http: HttpClient) { }
 
-  public getObjects() {
+  public getObjects(page: number) {
     //Pages: 1 to 1000
-    return this.http.get('https://www.rijksmuseum.nl/api/en/collection?key=' + environment.api + '&p=200');
+    return this.http.get('https://www.rijksmuseum.nl/api/en/collection?key=' + environment.api + '&p=' + page);
   }
 }

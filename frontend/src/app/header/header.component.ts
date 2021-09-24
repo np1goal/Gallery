@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { DepartmentApiService } from 'src/app/services/department-api.service';
 
 @Component({
   selector: 'app-header',
@@ -8,12 +7,11 @@ import { DepartmentApiService } from 'src/app/services/department-api.service';
 })
 export class HeaderComponent implements OnInit {
 
-  constructor(private departmentApi: DepartmentApiService) { }
+  constructor() { }
 
   departments: any = []
 
   ngOnInit(): void {
-    this.departmentApi.getDepartments().subscribe((res) => { this.departments = res; console.log(this.departments['departments'])})
   }
 
 }

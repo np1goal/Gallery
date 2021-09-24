@@ -144,9 +144,7 @@ export class ArtComponent implements OnInit {
        "objectCollection":[
           "paintings"
        ],
-       "makers":[
-          
-       ],
+       "makers":[],
        "principalMakers":[
           {
              "name":"Rembrandt van Rijn",
@@ -271,9 +269,7 @@ export class ArtComponent implements OnInit {
           "Roy, Jacob Dircksen de",
           "Heede, Jan van der"
        ],
-       "inscriptions":[
-          
-       ],
+       "inscriptions":[],
        "documentation":[
           "The Rembrandt Database,  Object information, Rembrandt,  Civic guardsmen of Amsterdam under command of Banninck Cocq,  dated 1642, Rijksmuseum, Amsterdam, inv. no. SK-C-5, http://www.rembrandtdatabase.org/Rembrandt/painting/3063/civic-guardsmen-of-amsterdam-under-command-of-banninck-cocq, accessed 2016 February 01",
           "Inzoomer object op zaal, 2013 (Nederlands/English).",
@@ -303,9 +299,7 @@ export class ArtComponent implements OnInit {
           "J.A. Overhoff, 'De Nachtwacht op zwerftocht' (het schilderij ten tijde van WO II), http://www.cacciucco.nl/artikelen/kunst/de_nachtwacht_op_zwerftocht.html [2016]",
           "J.A. Overhoff, 'THE NIGHT WATCH ODYSSEY' (the painting during WWII) , http://www.cacciucco.nl/english/the_night_watch_odyssey.html [2017]"
        ],
-       "catRefRPK":[
-          
-       ],
+       "catRefRPK":[],
        "principalOrFirstMaker":"Rembrandt van Rijn",
        "dimensions":[
           {
@@ -333,9 +327,7 @@ export class ArtComponent implements OnInit {
              "value":"170"
           }
        ],
-       "physicalProperties":[
-          
-       ],
+       "physicalProperties":[],
        "physicalMedium":"oil on canvas",
        "longTitle":"The Night Watch, Rembrandt van Rijn, 1642",
        "subTitle":"h 379.5cm × w 453.5cm × w 337kg",
